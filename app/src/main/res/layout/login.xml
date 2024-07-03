@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fg49681452_9307298"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@android:color/holo_blue_light">
+
+            <EditText
+                android:id="@+id/L_Username"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:hint="Username"
+                android:textColor="@android:color/white"
+                android:textColorHint="#FFCDD5DB" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_blue_light">
+
+            <EditText
+                android:id="@+id/L_Password"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:hint="password"
+                android:inputType="numberPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="#FFCDD5DB" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/L_Login"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="#03599b"
+            android:text="Login"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
